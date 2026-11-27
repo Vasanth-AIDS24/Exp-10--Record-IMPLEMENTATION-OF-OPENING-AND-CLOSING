@@ -109,33 +109,13 @@ plt.title("Closing Operation")
 plt.axis("off")
 plt.show()
 ```
-### comparison of three
-```
-plt.figure(figsize=(12, 4))
 
-plt.subplot(1, 3, 1)
-plt.imshow(image, cmap="gray")
-plt.title("Original Image")
-plt.axis("off")
-
-plt.subplot(1, 3, 2)
-plt.imshow(opening, cmap="gray")
-plt.title("Opening")
-plt.axis("off")
-
-plt.subplot(1, 3, 3)
-plt.imshow(closing, cmap="gray")
-plt.title("Closing")
-plt.axis("off")
-
-plt.show()
-```
 ## Output
 ### Original Image
 
 - The input image is displayed.
 - The image serves as the source for morphological processing.
-<img width="653" height="429" alt="image" src="https://github.com/user-attachments/assets/9c21f1dd-b2d2-40e4-8f6b-a7bd4b1b54bd" />
+<img width="458" height="490" alt="image" src="https://github.com/user-attachments/assets/2bc8798c-7fe4-4d48-aeb2-36e71d76cbe0" />
 
   
 ### Opening Operation
@@ -145,7 +125,7 @@ plt.show()
 - Small foreground noise is removed.
 - Thin protrusions and isolated pixels are eliminated.
 - Object boundaries become smoother.
-- <img width="665" height="427" alt="image" src="https://github.com/user-attachments/assets/ae9efcae-6a0d-4442-a4ea-0e35f94f93bc" />
+<img width="457" height="492" alt="image" src="https://github.com/user-attachments/assets/570214be-d25c-4d02-85af-36d564e1b0da" />
 
 
 ### Closing Operation
@@ -155,12 +135,7 @@ plt.show()
 - Small holes and gaps inside objects are filled.
 - Broken regions are connected.
 - Object boundaries become more continuous.
-- <img width="655" height="429" alt="image" src="https://github.com/user-attachments/assets/96e2c2b9-40a3-4474-9be1-56c338fe6c7f" />
-
-## Comparison of three
-
-<img width="1198" height="269" alt="image" src="https://github.com/user-attachments/assets/21bcbfd0-f96c-4a7c-afad-c027f56ad09d" />
-
+<img width="457" height="492" alt="image" src="https://github.com/user-attachments/assets/61729b5e-b143-4196-bb72-2d7bd4d9b37d" />
 
 
 ## Applications
