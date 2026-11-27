@@ -74,7 +74,7 @@ import matplotlib.pyplot as plt
 
 image = np.zeros((300, 500), dtype=np.uint8)
 
-cv2.putText(image, "MORPHOLOGY", (30, 150),
+cv2.putText(image, "Vasanth", (30, 150),
             cv2.FONT_HERSHEY_SIMPLEX, 1.5, 255, 5)
 
 plt.imshow(image, cmap="gray")
